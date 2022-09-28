@@ -1,0 +1,340 @@
+
+<!-- Product details --> 
+<html>
+
+<head>
+	<title>STYLE CLOSET-PRODUCT DETAILS</title>
+	<link rel="icon" href="video/logo 2.png"/>
+    <link rel="stylesheet" type="text/css" href="css/ecommerce.css">
+</head>
+
+<body style="background-color:#EFDECD">
+	<header>
+		<!---navigation bar section--->
+		<nav class="nav">
+			<div class="container">
+				<div class="logo">
+					<table>
+						<tr>
+							<td>
+								<p ALIGN="left"><a href="index.html"><img src="video/logo 1.png" height="50" width="50" alt="picture"/></a></p>
+							</td>
+							<td>
+								<a href="#home">STYLE CLOSET</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div id="mainListDiv" class="main_list">
+					<ul class="navlinks">
+						<li><a href="#shop">SHOP</a></li>
+						<li><a href="#collections">COLLECTIONS</a></li>
+						<li><a href="#journal">JOURNAL</a></li>
+						<li> <a href="shop.html"><img src="video/icon1.png" height="20" width="20" valign="middle" alt="picture"/></a></li>
+						<li><img src="video/icon2.png" height="20" width="20" valign="middle" alt="picture"/></li>
+						<li><img src="video/icon3.png" height="20" width="20" valign="middle" alt="picture"/></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!---end navigation bar section--->
+	</header>
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(window).scroll(function() {
+			if ($(document).scrollTop() > 50) {
+				$('.nav').addClass('affix');
+				console.log("OK");
+			} else {
+				$('.nav').removeClass('affix');
+			}
+		});
+	</script>
+ 	<div style="height: 150px"></div>
+ 
+	<table ALIGN="center" cellspacing="20">
+		<tr>
+			<td rowspan="2">
+				<table cellpadding="20">
+					<tr>
+						<td>
+							<img src="https://static.zara.net/photos///2021/V/0/1/p/2182/700/406/2/w/1280/2182700406_2_2_1.jpg?ts=1610365016247" alt="shirt"
+							style="width:500px; height:600px"/>
+						</td>
+						<td valign="top">
+							<p>
+								<img src="https://static.zara.net/photos///2021/V/0/1/p/2182/700/406/2/w/1280/2182700406_6_1_1.jpg?ts=1609762845228" alt="shirt"
+								style="width:200px; height:280; margin-left:0px"/>
+							</p>
+							<p>
+								<img src="https://static.zara.net/photos///2021/V/0/1/p/2182/700/406/3/w/1900/2182700406_2_4_1.jpg?ts=1610976598314" alt="shirt"
+								style="width:200px; height:280; margin-left:0px"/>
+							</p>
+							<p>
+								<img src="https://static.zara.net/photos///2021/V/0/1/p/2182/700/406/3/w/1280/2182700406_2_2_1.jpg?ts=1610976616142" alt="shirt"
+								style="width:200px; height:280; margin-left:0px"/>
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<h1>Stripped Shirt</h1>
+							<p style="font-size:20px">RM 125.00</p>
+							<br>
+							<a href="#size" style="text-decoration: none;"><h3>Size (international)</h3></a>
+							<button type="button" style="width:50px; height:30px">XS</button>
+							<button type="button" style="width:50px; height:30px">S</button>
+							<button type="button" style="width:50px; height:30px">M</button>
+							<button type="button" style="width:50px; height:30px">L</button>
+							<button type="button" style="width:50px; height:30px">XL</button>
+							<div style="height: 30px"></div>
+							<table cellspacing="5" >
+								<tr>
+									<td>	
+										<button type="button" style="background-color:black; color:white; width:50px; height:50px; float:left">-</button>
+										<button type="button" style="background-color:black; color:white; width:50px; height:50px; float:left"><b>1</b></button>
+										<button type="button" style="background-color:black; color:white; width:50px; height:50px; float:left"><b>+</b></button>
+									</td>
+									<td>
+										<a href="shopping cart.html"><button type="button" onclick="alert('Item has been added into cart')" style="background-color:black; color:white; width:250px; height:50px"><b>Add to cart</b></button></a>
+									</td>
+								</tr>			
+							</table>
+							<div style="height: 30px"></div>
+							<table cellspacing="20">
+								<tr>
+									<td>
+										<h2>Description</h2>
+										<ul>
+											<li>Color: Light Blue</li>
+											<li>Type: Collared Shirt</li>
+											<li>Sleeve Length: Long Sleeve</li>
+											<li>Season:	Spring/Summer</li>
+											<li>Material: 100% Cotton</li>
+											<li>Regular fit</li>
+											<li>Imported from overseas</li>
+										</ul>
+									</td>
+									<td>
+										<h3>Care Instructions</h3>
+										<p>
+											<img src="video/detail2.png" width="150" height="30" alt="picture"/>
+										</p>
+										<h3>Info</h3>
+										<p>30 days Return<br>Cash on Delivery is not supported</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<div style="height: 10px"></div>
+	<table align="center" cellspacing="60" cellpadding="60">
+		<tr>
+			<td>
+				<a id="size"><h2 id="chart"; style="text-align:center">Clothing Guide</h2></a>
+				<table border="2" cellpadding="10" align="center" width="600" style="text-align:center">
+					<tr>
+						<th></th>
+						<th>Chest</th>
+						<th>Waist</th>
+						<th>Hip</th>
+					</tr>
+				
+					<tr>
+						<th></th>
+						<th colspan="3">cm</th>
+					</tr>
+				
+					<tr>
+						<th>XS</th>
+						<td>30</td>
+						<td>24</td>
+						<td>33</td>
+					</tr>
+				
+					<tr>
+						<th>S</th>
+						<td>32</td>
+						<td>26</td>
+						<td>35</td>
+					</tr>
+
+					<tr>
+						<th>M</th>
+						<td>35</td>
+						<td>28</td>
+						<td>38</td>
+					</tr>
+
+					<tr>
+						<th>L</th>
+						<td>37</td>
+						<td>31</td>
+						<td>40</td>
+					</tr>
+
+					<tr>
+						<th>XL</th>
+						<td>40</td>
+						<td>34</td>
+						<td>43</td>
+					</tr>
+
+					<tr>
+						<th>XXL</th>
+						<td>44</td>
+						<td>38</td>
+						<td>47</td>
+					</tr>
+				</table>
+				<figure align="center">
+					<figcaption>* Please note that the size might vary between 3-5cm.</figcaption>
+				</figure>
+			</td>
+
+			<td>
+				<h1>Customer Ratings <span style="font-size:20px">&#11088;&#11088;&#11088;&#11088;&#11088;</span></h1>
+				<p>No reviews for this product yet</p>
+				<p>Be the first one to review</p>
+	
+				<form>
+					<label for="review" style="font-size:20px"><b>Review:</b></label><br><br>
+					<input type="text" id="review" name="review" placeholder="Share your thoughts and help other buyers to decide" style="width:400px; height:30px">
+					<input type="submit" value="Submit">
+				</form>
+			</td>
+		</tr>
+	</table>
+	
+	<div style="height: 10px"></div>
+	<table align="center">
+		<tr>
+			<td>
+				<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customer Also Viewed</h1>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table cellspacing="30"> 
+					<tr>
+						<td>
+							<img src="video/detail 2.png" alt="arrow" height="30" width="30"/>
+						</td>
+						<td>
+							<img src="video/detail 3.jpg" alt="shirt"
+							style="width:300px; height:400px; margin-left:0px"/>
+						</td>
+						<td>
+							<img src="https://static.zara.net/photos///2021/V/0/1/p/4644/361/620/2/w/1280/4644361620_2_1_1.jpg?ts=1612367809442" alt="shirt"
+							style="width:300px; height:400px; margin-left:0px"/>
+						</td>
+						<td>
+							<img src="https://static.zara.net/photos///2020/I/0/1/p/5584/501/803/2/w/1920/5584501803_1_1_1.jpg?ts=1604657925922" alt="shirt"
+							style="width:300px; height:400px; margin-left:0px"/>
+						</td>
+						<td>		
+							<img src="https://static.zara.net/photos///2021/V/0/1/p/5802/028/400/2/w/1920/5802028400_2_1_1.jpg?ts=1614341504344" alt="shirt"
+							style="width:300px; height:400px; margin-left:0px"/>
+						</td>
+						<td>
+							<img src="video/detail 1.png" alt="arrow" height="30" width="30" />
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<!---footer section--->
+	<footer>
+		<div style="height: 250px"></div>
+		<table ALIGN="center" cellspacing="25">
+			<tr>
+				<td>
+					<table rules="none">
+						<tr>
+							<td>
+								<img src="video/footer1.png" height="200" width="200" ALIGN="right" valign="middle" alt="picture"/>
+							</td>  
+							<td>
+								<p ALIGN="left" valign="middle"><b>SHOPPING WITH US</b></p>
+								<p ALIGN="left" valign="middle">Shop Now<br>What's New<br>My Account<br>Track Order<br>Find A Store</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+
+				<td>
+					<table rules="none">
+						<tr>
+							<td>
+								<img src="video/footer2.png" height="200" width="160" ALIGN="right" valign="middle" alt="picture"/>
+							</td>  
+							<td>
+								<p ALIGN="left" valign="middle"><b>DISCOVER</b></p>
+								<p ALIGN="left" valign="middle">About Us<br>Journal<br>Designers</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+				
+				<td>
+					<table rules="none">
+						<tr>
+							<td>
+								<img src="video/footer3.png" height="200" width="200" ALIGN="right" valign="middle" alt="picture"/>
+							</td>  
+							<td>
+								<p ALIGN="left" valign="middle"><b>HELP</b></p>
+								<p ALIGN="left" valign="middle">Size Chart<br>Shipping & Returns<br>Contact Us<br>FAQ</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			   
+				<td>
+					<table rules="none">
+						<tr>
+							<td>
+								<img src="video/footer4.png" height="200" width="200" ALIGN="right" valign="middle" alt="picture"/>
+							</td>  
+							<td>
+								<p ALIGN="left" valign="middle"><b>INFO</b></p>
+								<p ALIGN="left" valign="middle">How To Order<br>Payment Terms<br>Privacy Policy<br>News/Announcements<br>Terms & Conditions</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td ALIGN="center" colspan="4">
+					<pre><h2>JOIN OUR NEWSLETTER</h2></pre>
+					<h3>be come a part of the community</h3>
+					<input id="name" type="email" name="name" placeholder="Enter Your Email Address"/><input type="Submit"/>
+					<p>
+						<img src="video/footer5.png" width="30" height="30" alt="picture"/>
+						<img src="video/footer6.png" width="30" height="30" alt="picture"/>
+						<img src="video/footer7.png" width="30" height="30" alt="picture"/>
+						<img src="video/footer8.png" width="30" height="30" alt="picture"/>
+						<img src="video/footer9.png" width="30" height="30"alt="picture"/>
+					</p>
+					<p>copyright &copy; STYLE CLOSET All Right Reserved</p>
+				</td>
+			</tr>
+		</table>   
+	</footer>
+	<!---end footer section--->
+</body>
+</html>

@@ -1,0 +1,313 @@
+<html>
+	<head>
+		<title>STYLE CLOSET-CHECKOUT</title>
+		<link rel="icon" href="video/logo 2.png"/>
+    	<link rel="stylesheet" type="text/css" href="css/ecommerce.css">
+
+		<style>
+			body {
+			background-color:#EFDECD;
+			font-family:"Quicksand", sans-serif;
+			font-size:1.5rem;
+			}
+			.vl {
+  			border-left: 2px solid white;
+  			height: 1250px;
+			}
+		</style>
+
+	</head>
+	<body>
+		<header>
+            <nav class="nav">
+                <div class="container">
+                    <div class="logo">
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="index.html"><p ALIGN="left"><img src="video/logo 1.png" height="50" width="50"></p></a>
+                                </td>
+                                <td>
+                                    <a href="#home">STYLE CLOSET</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="mainListDiv" class="main_list">
+                        <ul class="navlinks">
+                            <li><a href="#shop">SHOP</a></li>
+                            <li><a href="#collections">COLLECTIONS</a></li>
+                            <li><a href="#journal">JOURNAL</a></li>
+                            <li><a href="shop.html"><img src="video/icon1.png" height="20" width="20" valign="middle"></a></li>
+                            <li><img src="video/icon2.png" height="20" width="20" valign="middle"></li>
+                            <li><img src="video/icon3.png" height="20" width="20" valign="middle"></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+		</header>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+		
+		
+        
+        <div style="height: 150px"></div>
+				
+				<h1 style="color:black" align="center">&#9819; Checkout &#9819;</h1>
+				<p align="center">	
+					<b>-FREE Shipping & only SHIPS WITHIN Malaysia-</b>
+				</p>
+		
+		<table width="100%" cellspacing="50">
+			<tr>
+			<td width="60%">
+				<form action="" method="post">
+				<fieldset>
+					<legend><h2>Contact Information</h2></legend>
+						<label>
+							Your Email:
+							<input type="email" name="email" placeholder="email address"/>
+						</label>
+					<p>
+						<label>
+							<input type="checkbox" checked name="subscribe"/>
+							Keep me updated on the latest news & offers?
+						</label>
+					</p>
+				</fieldset>
+				&nbsp;
+				<fieldset>
+						<legend><h2>Shipping Details</h2></legend>
+						<label for="name">First name:</label>
+						<input type="text" id="name" name="first_name" placeholder="first name">
+						&nbsp;			
+						<label for="name">Last name:</label>
+						<input type="text" id="name" name="last_name" placeholder="last name">	
+					</p>
+					&nbsp;
+					<p>
+					<label>
+						State:
+						&nbsp&nbsp&nbsp&nbsp;
+						<input type="text" id="state" name="your_state" placeholder="state">
+					<label>
+					</p>
+					<p>
+					<label>
+						City:
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+						<input type="text" id="city" name="city" placeholder="city">
+					</label>
+					</p>
+					<p>
+					<label>
+						ZIP code:
+						<input id="zip" name="zip" type="text" pattern="[0-9]*" placeholder="zip">
+					</label>
+					</p>
+					&nbsp;
+					<p>	
+					<label>
+						Address: 
+						<textarea id="msg" name="address" placeholder="address"></textarea>
+					</label>
+					</p>
+			</fieldset>
+				&nbsp;
+			<fieldset>
+					<legend><h2>Payment Details</h2></legend>
+					<label>
+						Method of Payment:
+						<select name="payment_method">
+							<option>Credit Card</option>
+							<option>Debit Card</option>
+						</select>
+					</label>
+				</p>
+				<p>
+					<label for="name">Name on Card:</label>
+						<input type="text" id="name" name="name_on_card" placeholder="full name">
+				</p>
+				<p>	
+					<label>
+						Card Number:
+						<input id="card_number" name="card_number" type="text" pattern="[0-9]*" placeholder="card number">
+						&nbsp&nbsp&nbsp;
+						CVV:
+						<input id="CVV" name="CVV" type="text" pattern="[0-9]*" placeholder="000">
+					</label>
+				</p>
+				<p>
+					<label>
+						Card Expiration:
+						<select name='expireMM' id='expireMM'>
+   							<option value=''>Month</option>
+   							<option value='01'>January</option>
+    							<option value='02'>February</option>
+    							<option value='03'>March</option>
+    							<option value='04'>April</option>
+   							<option value='05'>May</option>
+    							<option value='06'>June</option>
+    							<option value='07'>July</option>
+   							<option value='08'>August</option>
+    							<option value='09'>September</option>
+    							<option value='10'>October</option>
+   							<option value='11'>November</option>
+    							<option value='12'>December</option>
+						</select> 
+						<select name='expireYY' id='expireYY'>
+  							<option value=''>Year</option>
+    							<option value='20'>2021</option>
+    							<option value='21'>2022</option>
+    							<option value='22'>2023</option>
+    							<option value='23'>2024</option>
+    							<option value='24'>2025</option>
+						</select> 
+
+					</label>
+				</p>
+			</fieldset>
+	
+					&nbsp;
+				
+					&nbsp;
+				<p align="center">
+					<label>
+							<input type="checkbox" name="verify"/>
+							<b>I'm not a robot.</b>
+					</label>
+				</p>
+				<p align="center" >
+					<label>
+						<input type="reset"/>
+						<input type="submit"/>
+					</label>
+				</p>
+				&nbsp;
+				<p>
+					&nbsp;
+					<table border="3" bordercolor="#000000" cellspacing="2" cellpadding="3" align="center">
+						<tr>
+							<th>Accepted cards</th>
+							<td><img alt="Accepted cards" title="Accepted cards" src="video/checkout1.jpeg"/></td>
+						</tr>
+						<tr>
+							<th>Logistics</th>
+							<td><img alt="Logistics" title="Logistics" src="video/checkout2.jpeg"/></td>
+						</tr>
+					</table>
+				</p>
+
+		</form>
+	</td>
+			<td>
+				<div class="vl"></div>
+			</td>
+			
+			<td>
+				
+				<figure>
+					<a href="Product details.html"><img src="https://static.zara.net/photos///2021/V/0/1/p/2182/700/406/2/w/1280/2182700406_6_1_1.jpg?ts=1609762845228" alt="item" src="Stripped shirt" width="500" height="600" align="center" /></a>
+					<h2 align="center">&#9819; Stripped Shirt &#9819;</h2>
+					<a href="shopping cart.html" style="text-decoration: none;"><h2 align="center">RM125.00</h2></a>
+				</figure>
+			</td>
+	</tr>
+	</table>
+
+    <!---footer section--->
+	<footer>
+		<div style="height: 250px"></div>
+		<table ALIGN="center" cellspacing="25">
+			<tr>
+				<td>
+					<table rules="none">
+						<tr>
+							<td>
+								<img src="video/footer1.png" height="200" width="200" ALIGN="right" valign="middle">
+							</td>  
+							<td>
+								<p ALIGN="left" valign="middle"><b>SHOPPING WITH US</b></p>
+								<p ALIGN="left" valign="middle">Shop Now<br>What's New<br>My Account<br>Track Order<br>Find A Store</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+
+				<td>
+					<table rules="none">
+						<tr>
+							<td>
+								<img src="video/footer2.png" height="200" width="160" ALIGN="right" valign="middle">
+							</td>  
+							<td>
+								<p ALIGN="left" valign="middle"><b>DISCOVER</b></p>
+								<p ALIGN="left" valign="middle">About Us<br>Journal<br>Designers</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+				
+				<td>
+					<table rules="none">
+						<tr>
+							<td>
+								<img src="video/footer3.png" height="200" width="200" ALIGN="right" valign="middle">
+							</td>  
+							<td>
+								<p ALIGN="left" valign="middle"><b>HELP</b></p>
+								<p ALIGN="left" valign="middle">Size Chart<br>Shipping & Returns<br>Contact Us<br>FAQ</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			   
+				<td>
+					<table rules="none">
+						<tr>
+							<td>
+								<img src="video/footer4.png" height="200" width="200" ALIGN="right" valign="middle">
+							</td>  
+							<td>
+								<p ALIGN="left" valign="middle"><b>INFO</b></p>
+								<p ALIGN="left" valign="middle">How To Order<br>Payment Terms<br>Privacy Policy<br>News/Announcements<br>Terms & Conditions</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td ALIGN="center" colspan="4">
+					<pre><h2>JOIN OUR NEWSLETTER</h2></pre>
+					<h3>be come a part of the community</h3>
+					<input id="name" type="email" name="name" placeholder="Enter Your Email Address"/><input type="Submit"/>
+					<p>
+						<img src="video/footer5.png" width="30" height="30">
+						<img src="video/footer6.png" width="30" height="30">
+						<img src="video/footer7.png" width="30" height="30">
+						<img src="video/footer8.png" width="30" height="30">
+						<img src="video/footer9.png" width="30" height="30">
+					</p>
+					<p>copyright &copy; STYLE CLOSET All Right Reserved</p>
+				</td>
+			</tr>
+		</table>   
+	</footer>
+	<!---end footer section--->
+	</body>
+</html>
+		
+		
+	</body>
+</html>

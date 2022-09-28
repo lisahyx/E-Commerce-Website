@@ -1,0 +1,291 @@
+
+<html>
+    <head>
+        <title>STYLE CLOSET</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="icon" href="video/logo 2.png"/>
+        
+    </head>
+    <body style="background-color:#EFDECD">
+        <embed name="GoodEnough" src="video/LIFE IN BLOOM.mp3" loop="false" hidden="true" autostart="true">
+        <header>
+            <!---navigation bar section--->
+            <nav class="nav">
+                <div class="container">
+                    <div class="logo">
+                        <table>
+                            <tr>
+                                <td>
+                                    <p ALIGN="left"><img src="video/logo 1.png" height="50" width="50"/></p>
+                                </td>
+                                <td>
+                                    <a href="#home">STYLE CLOSET</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="mainListDiv" class="main_list">
+                        <ul class="navlinks">
+                            <li><a href="#shop">SHOP</a></li>
+                            <li><a href="#collections">COLLECTIONS</a></li>
+                            <li><a href="#journal">JOURNAL</a></li>
+                            <li><img src="video/icon1.png" height="20" width="20" valign="middle"/></li>
+                            <li><img src="video/icon2.png" height="20" width="20" valign="middle"/></li>
+                            <li><img src="video/icon3.png" height="20" width="20" valign="middle"/></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!---end navigation bar section--->
+            <!---header video-->
+            <div class="video-container">
+                <a id="home"><video autoplay loop muted id="video-bg">
+                    <source src="video/LIFE IN BLOOM. Mango. Fashion campaign 2020 (1)_Trim.mp4" type="video/mp4">
+                </video></a>
+            </div>
+            <!---end header video-->
+        </header>
+
+        <!---link with js--->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+
+        <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+        
+         <!---collection section--->
+        <article>
+            <div class="about-section section-padding fix">
+                <div class="wrapper">
+                    <div class="section-header fix">
+                        <h2><a id="collections">Collections</a></h2>
+                        <div class="line"></div>
+                        <p>The only</p>
+                    </div>
+        
+                    <div class="about-area">
+                        <div class="about-left">
+                            <img src="video/collection1.jpg" alt="picture"/>
+                        </div>
+                        <div class="about-right">
+                            <h2>The Organic Cotton Collection</h2>
+                            <p>In collaboration with our partner Oshadi Collective in
+                            Erode, India,our Organic Cotton Collection is woven with 
+                            care and created with consciousness.Each piece is made with  
+                            organic cotton and colored using natural or organic 
+                            dyes.They&apos;re hand-washable, and ready for all of life&apos;s
+                            journeys and adventures.This is truly a collection made
+                            from Mother Earth, for Mother Earth,and designed to be
+                            loved by generations to come.</p>
+                            <pre>
+                            <table ALIGN="center" border="1"cellspacing="0" cellpadding="10">
+                                <tr>
+                                    <td>Discover the collection</td>
+                                </tr>
+                            </table>
+                            </pre>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </article >
+        <!---end collection section--->
+
+        <!---shop section--->
+        <article>
+            <div class="section-header fix">
+                <h2><a id="shop">Shop</a></h2>
+                <div class="line"></div>
+                <p>Make it yours</p>
+            </div>
+            <table ALIGN="center" cellspacing="50">
+                <tr>
+                    <td><img src="video/shop1.jpg" width="380" height="400" alt="picture"/></td>
+                    <td><img src="video/shop2.jpg" width="380" height="400" alt="picture"/></td>
+                    <td><img src="video/shop3.jpg" width="380" height="400" alt="picture"/></td>
+                </tr>
+                <tr>
+                    <td><img src="video/shop4.jpg"  width="380" height="400" alt="picture"/></td>
+                    <td><img src="video/shop5.jpg"  width="380" height="400" alt="picture"/></td>
+                    <td><img src="video/shop6.jpg"  width="380" height="400"alt="picture"/></td>
+                </tr>
+            </table>
+            <a href="shop.html" style="text-decoration: none;"><table ALIGN="center" border="1"cellspacing="0" cellpadding="10">
+                <tr>
+                    <td>Discover more</td>
+                </tr>
+            </table></a>
+        </article>
+        <!---end shop section--->
+
+        <!---journal section--->
+        <article>
+            <div class="section-header fix">
+                <h2><a id="journal">Journal</a></h2>
+                <div class="line"></div>
+                <p>> See all stories</p>
+            </div>
+            <table align="center" cellspacing="30">
+                <tr>
+                    <td valign="middle" align="center">
+                        <p><b>The Journal</b></p>
+                        <p>Join us as we chronicle our journey through this Earth-</p>
+                        <p>the potent individuals we meet along the way,the monthly</p>
+                        <p>moon cycles we follow,the meaningful collaborations we</p>
+                        <p>have created,our farm-to-closet project,and everything</p>
+                        <p>that's currently inspiring us.</p>
+                        <pre>
+                        <table ALIGN="center" border="1"cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td>Read The Journal</td>
+                            </tr>
+                        </table>
+                        </pre>
+                    </td>
+                    <td>
+                        <img src="video/journal1.jpg" width="450" height="300" alt="picture"/>
+                        <p ALIGN="center">Printing The Alchemy of Plants</p>
+                    </td>
+                    <td>
+                        <img src="https://cdn.shopify.com/s/files/1/1132/5272/articles/madewell_x_christy_dawn_7845664d-3239-4626-99c5-d1d39db3b203_1024x1024.jpg?v=1563290779" width="480" height="550" alt="picture"/>
+                        <p ALIGN="center">Madewell X Christy Dawn</p>
+                    </td>
+                </tr>
+            </table>
+        </article>
+        <!---end journal section--->
+
+        <!---instagram section--->
+        <article>
+            <div class="section-header fix">
+                <h2>On The Gram</h2>
+                <div class="line"></div>
+                <p>#styleclosetgirls</p>
+            </div>
+            <table ALIGN="center" cellspacing="50">
+                <tr>
+                    <td>
+                        <img src="https://media.everlane.com/image/upload/c_fill,dpr_1.0,f_auto,g_face:center,q_auto,w_auto/v1/i/af3394ee_78c6.jpg" width="300" height="300" alt="picture"/>
+                        <p ALIGN="center">@shelbyeastman</p>
+                        <p ALIGN="center">x</p> 
+                        <p ALIGN="center">The Denim Chore Jacket</p>
+                    </td>
+                    <td>
+                        <img src="https://media.everlane.com/image/upload/c_fill,dpr_1.0,f_auto,g_face:center,q_auto,w_auto/v1/i/7704ebb4_4468.jpg" width="300" height="300" alt="picture"/>
+                        <p ALIGN="center">@littlemixico</p>
+                        <p ALIGN="center">x</p> 
+                        <p ALIGN="center">The Perform Bra</p>
+                    </td>
+                    <td>
+                        <img src="https://media.everlane.com/image/upload/c_fill,dpr_1.0,f_auto,g_face:center,q_auto,w_auto/v1/i/9a8b2d55_11d5.jpg" width="300" height="300" alt="picture"/>
+                        <p ALIGN="center">@truely.styled</p>
+                        <p ALIGN="center">x</p> 
+                        <p ALIGN="center">The Oversized Alpaca Crew</p>
+                    </td>
+                    <td>
+                        <img src="https://media.everlane.com/image/upload/c_fill,dpr_1.0,f_auto,g_face:center,q_auto,w_auto/v1/i/28c8b601_a39d.jpg" width="300" height="300" alt="picture"/>
+                        <p ALIGN="center">@magnolia81</p>
+                        <p ALIGN="center">x</p> 
+                        <p ALIGN="center">The Super-Straight Jean</p>
+                    </td>
+                </tr>
+            </table>
+            <table ALIGN="center" border="1"cellspacing="0" cellpadding="10">
+                <tr>
+                    <td>Explore more</td>
+                </tr>
+            </table>
+        </article>
+        <!---end instagram section--->
+
+        <!---footer section--->
+        <footer>
+            <div style="height: 250px"></div>
+            <table ALIGN="center" cellspacing="25">
+                <tr>
+                    <td>
+                        <table rules="none">
+                            <tr>
+                                <td>
+                                    <img src="video/footer1.png" height="200" width="200" ALIGN="right" valign="middle" alt="picture"/>
+                                </td>  
+                                <td>
+                                    <p ALIGN="left" valign="middle"><b>SHOPPING WITH US</b></p>
+                                    <p ALIGN="left" valign="middle">Shop Now<br>What's New<br>My Account<br>Track Order<br>Find A Store</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td>
+                        <table rules="none">
+                            <tr>
+                                <td>
+                                    <img src="video/footer2.png" height="200" width="160" ALIGN="right" valign="middle" alt="picture"/>
+                                </td>  
+                                <td>
+                                    <p ALIGN="left" valign="middle"><b>DISCOVER</b></p>
+                                    <p ALIGN="left" valign="middle">About Us<br>Journal<br>Designers</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    
+                    <td>
+                        <table rules="none">
+                            <tr>
+                                <td>
+                                    <img src="video/footer3.png" height="200" width="200" ALIGN="right" valign="middle" alt="picture"/>
+                                </td>  
+                                <td>
+                                    <p ALIGN="left" valign="middle"><b>HELP</b></p>
+                                    <p ALIGN="left" valign="middle">Size Chart<br>Shipping & Returns<br>Contact Us<br>FAQ</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                   
+                    <td>
+                        <table rules="none">
+                            <tr>
+                                <td>
+                                    <img src="video/footer4.png" height="200" width="200" ALIGN="right" valign="middle" alt="picture"/>
+                                </td>  
+                                <td>
+                                    <p ALIGN="left" valign="middle"><b>INFO</b></p>
+                                    <p ALIGN="left" valign="middle">How To Order<br>Payment Terms<br>Privacy Policy<br>News/Announcements<br>Terms & Conditions</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td ALIGN="center" colspan="4">
+                        <pre><h2>JOIN OUR NEWSLETTER</h2></pre>
+                        <h3>be come a part of the community</h3>
+                        <input id="name" type="email" name="name" placeholder="Enter Your Email Address"/><input type="Submit"/>
+                        <p>
+                            <img src="video/footer5.png" width="30" height="30" alt="picture"/>
+                            <img src="video/footer6.png" width="30" height="30" alt="picture"/>
+                            <img src="video/footer7.png" width="30" height="30" alt="picture"/>
+                            <img src="video/footer8.png" width="30" height="30" alt="picture"/>
+                            <img src="video/footer9.png" width="30" height="30" alt="picture"/>
+                        </p>
+                        <p>copyright &copy; STYLE CLOSET All Right Reserved</p>
+                    </td>
+                </tr>
+            </table>   
+        </footer>
+        <!---end footer section--->
+    </body>
+</html>
